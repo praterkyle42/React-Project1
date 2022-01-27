@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: inter;
+    background-color:#282D35;
+}
+.nav-bar {
+    display: flex; 
+    justify-content: flex-start;
+    font-family: inter;
+    font-style: normal;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 10%;
+}
+.nav-img {
+    width: 50px;
+    margin-right: 6.68px;
+    margin-left: 26px;
+}
+.logo-div {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    /*padding: 31px;*/
+}
+.logo-title {
+    font-weight: bold;
+    font-size: 25px;
+    color: #61DAFB;
+    letter-spacing: -0.05em;
+
+}
+.project-title-container {
+    display: flex; 
+    align-items: center;
+}
+.project-title-text {
+    font-weight: 600;
+    font-size: 19px;
+    color: #DEEBF8;
+    /*
+    margin-right: 23px; 
+    */
+    margin-top: 6px;
+}
+main {
+    padding: 60px 57px;
+    color: #FFFFFF;
+    background-image: url("./images/reactjs-icon-2.png");
+    background-repeat: no-repeat;
+    background-position: right 75%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+
+}
+
+.main-content--title {
+    font-size: 40px;
+    text-align: left;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: -0.05em;
+}
+.main-content--list {
+    font-size: 18px; 
+    font-weight: 400; 
+    margin-top: 40px;
+    margin-left: 10px;
+    max-width: 500px;
+}
+.main-content--list > li {
+    line-height: 19px; 
+    padding-block: 20px;
+}
+.main-content--list > li::marker {
+    font-size: 1.5rem;
+    color: #61DAFB;
+
+}
+.business-card {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    font-family: Inter;
+}
+.business-card-info--container {
+    display: flex; 
+    flex-direction: column;
+}
+.business-card--img {
+    width: 317px;
+    border-radius: 10px 10px 0px 0px;
+   
+}
+.business-card-info--main {
+    text-align: center;
+    background-color: #F5F5F5;
+  
+
+}
+.business-card > h1 {
+    color: #FFFFFF;
+}
+
+.btn {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.main-info--text-container {
+    margin-bottom: 17px;
+}
+.main-info--text-container > p {
+    color: #F47D27;
+
+}
+.business-card-info--buttons {
+    margin-bottom: 25px;
+}
+.business-card-info--buttons > button {
+    font-family: inter;
+    font-size: 14px;
+
+}
+.mail-btn {
+    background-color: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin-right: 17px;
+    width: 115px; 
+    height: 34px;
+    
+}
+.linkedIn-btn {
+    background-color: #297FE5;
+    color: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    font-family: Inter;
+    width: 115px; 
+    height: 34px;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 13px 9px 11px;
+}
+.btn-img {
+    margin-right: 8px;
+    width: 16px;
+}
+.business-card-section {
+    width: 317px;
+    text-align: left;
+    background-color: #F5F5F5;
+    padding-left: 35px; 
+    padding-right: 35px;
+}
+.business-card-header {
+    font-family: Inter;
+    font-size: 16px;
+}
+.business-card-content {
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 12px;
+    color: #4A4E74;
+}
+.business-card-footer {
+    width: 317px; 
+    height: 64px; 
+    background-color: #D5D4D8;
+
+}
+.section-bottom {
+    padding-bottom: 31px;
+}
